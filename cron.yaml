@@ -1,0 +1,4 @@
+cron:
+- description: hourly example refresh
+  url: /update?client=example&auth=sala9000
+  schedule: every 1 hours synchronized

@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+</head>
+<body>
+<iframe src="/renderawesome?client={{client|e}}&auth={{auth|e}}" height="365px" width="450px"></iframe>
+<form action="/testupdate" method="post">
+<input type="hidden" value="{{client|e}}" name="client" />
+<input type="hidden" value="{{auth|e}}" name="auth" />
+<textarea rows="10" cols="80" name="data">
+{{data|e}}
+</textarea>
+<input type="submit" value="Save" />
+</form>
+</body>
+</html>

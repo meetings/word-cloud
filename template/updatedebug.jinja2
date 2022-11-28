@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+</head>
+<body>
+<h1>FOR DEBUG PURPOSES YOU CAN USE THIS FORM TO UPLOAD FILE!</h1>
+<p>The file should be uploaded to: {{upload_url|e}}</p>
+<p>The file should be an image generated from: {{render_url|e}}</p>
+<p>Which should be populated from: {{futusome_url|e}}</p>
+<p>And this is the url that should make all of this happen:</p>
+<p><a href="{{cuty_url|e}}">CLICK</a></p>
+<div>
+<form action="{{upload_url|e}}" method="POST" enctype="multipart/form-data">
+Upload File: <input type="file" name="file"><br> <input type="submit" name="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
